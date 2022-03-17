@@ -6,39 +6,42 @@ return {
   dart = { 'dartlang', 'polymerdart', 'angulardart' },
   go = { 'go', 'godoc' },
   html = {
-    'html', 'svg', 'css', 'bootstrap', 'foundation', 'awesome', 'statamic',
-    'javascript', 'jquery', 'jqueryui', 'jquerym', 'angularjs', 'backbone',
-    'marionette', 'meteor', 'moo', 'prototype', 'ember', 'lodash',
-    'underscore', 'sencha', 'extjs', 'knockout', 'zepto', 'cordova',
-    'phonegap', 'yui'
+    'html', 'angularjs', 'awesome', 'backbone', 'bootstrap', 'cordova', 'css',
+    'ember', 'extjs', 'foundation', 'javascript', 'jquery', 'jquerym',
+    'jqueryui', 'knockout', 'lodash', 'marionette', 'meteor', 'moo',
+    'phonegap', 'prototype', 'sencha', 'statamic', 'svg', 'underscore', 'yui',
+    'zepto',
   },
   java = {
-    'java', 'javafx', 'grails', 'groovy', 'playjava', 'spring', 'cvj',
-    'processing', 'javadoc'
+    'java', 'cvj', 'grails', 'groovy', 'javadoc', 'javafx', 'playjava',
+    'processing', 'spring',
   },
   javascript = {
-    'javascript', 'jquery', 'jqueryui', 'jquerym', 'angularjs', 'backbone',
-    'marionette', 'meteor', 'sproutcore', 'moo', 'prototype', 'bootstrap',
-    'foundation', 'lodash', 'underscore', 'ember', 'sencha', 'extjs',
-    'titanium', 'knockout', 'zepto', 'yui', 'd3', 'svg', 'dojo', 'coffee',
-    'nodejs', 'express', 'grunt', 'mongoose', 'moment', 'require', 'awsjs',
-    'jasmine', 'sinon', 'chai', 'html', 'css', 'cordova', 'phonegap', 'unity3d'
+    'javascript', 'angularjs', 'awsjs', 'backbone', 'bootstrap', 'chai',
+    'coffee', 'cordova', 'css', 'd3', 'dojo', 'electron', 'ember', 'express',
+    'extjs', 'foundation', 'grunt', 'html', 'jasmine', 'jquery', 'jquerym',
+    'jqueryui', 'knockout', 'lodash', 'marionette', 'meteor', 'moment',
+    'mongoose', 'moo', 'nodejs', 'phonegap', 'prototype', 'require', 'sencha',
+    'sinon', 'sproutcore', 'svg', 'titanium', 'underscore', 'unity3d', 'yui',
+    'zepto',
   },
   lua = { 'lua', 'corona' },
   perl = { 'perl', 'manpages' },
-  php= {
-    'php', 'wordpress', 'drupal', 'zend', 'laravel', 'yii', 'joomla', 'ee',
-    'codeigniter', 'cakephp', 'phpunit', 'phpp', 'symfony', 'typo3', 'twig',
-    'smarty', 'html', 'statamic', 'mysql', 'sqlite', 'mongodb', 'psql', 'redis'
+  php = {
+    'php', 'cakephp', 'codeigniter', 'drupal', 'ee', 'html', 'joomla',
+    'laravel', 'mongodb', 'mysql', 'phpp', 'phpunit', 'psql', 'redis',
+    'smarty', 'sqlite', 'statamic', 'symfony', 'twig', 'typo3', 'wordpress',
+    'yii', 'zend',
   },
   python = {
-    'python', 'django', 'twisted', 'sphinx', 'flask', 'tornado', 'sqlalchemy',
-    'numpy', 'scipy', 'salt', 'cvp'
+    'python', 'cvp', 'django', 'flask', 'numpy', 'salt', 'scipy', 'sphinx',
+    'sqlalchemy', 'tornado', 'twisted',
   },
   ruby = { 'ruby', 'rubygems', 'rails' },
   sass = { 'sass', 'compass', 'bourbon', 'neat', 'css' },
   scala = { 'scala', 'akka', 'playscala', 'scaladoc' },
   sh = { 'bash', 'manpages' },
   sql = { 'mysql', 'sqlite', 'psql' },
+  typescript = { 'typescript', 'javascript', 'nodejs' },
   yaml = { 'chef', 'ansible' }
 }
